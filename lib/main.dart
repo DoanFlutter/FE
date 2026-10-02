@@ -1,19 +1,22 @@
 import 'package:flutter/material.dart';
 
-import 'screens/login_screen.dart';
+import 'screens/auth/auth_gate.dart';
+import 'themes/app_theme.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const LoginScreen(),
+      title: 'Khoa Công nghệ thông tin',
+      theme: AppTheme.theme,
+      home: const AuthGate(),
     );
   }
 }
