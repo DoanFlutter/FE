@@ -246,14 +246,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
                 const SizedBox(height: 30),
 
-                const Text(
-                  '© Khoa Công nghệ thông tin',
-                  style: TextStyle(
-                    fontSize: 12,
-                    color: AppTheme.secondaryTextColor,
-                  ),
-                ),
-
                 const SizedBox(height: 20),
               ],
             ),

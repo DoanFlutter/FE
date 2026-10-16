@@ -1,5 +1,5 @@
 class Api {
-  static const String baseUrl = 'http://192.168.1.6:5000/api';
+  static const String baseUrl = 'http://192.168.1.8:5000/api';
   // Auth
   static const String login = '$baseUrl/auth/login';
   // Activities
